@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39126AD6199E35C6009C814B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AD5199E35C6009C814B /* Foundation.framework */; };
+		39126AD8199E35C6009C814B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AD7199E35C6009C814B /* CoreGraphics.framework */; };
+		39126ADA199E35C7009C814B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AD9199E35C7009C814B /* UIKit.framework */; };
+		39126AE0199E35C7009C814B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39126ADE199E35C7009C814B /* InfoPlist.strings */; };
+		39126AE2199E35C7009C814B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39126AE1199E35C7009C814B /* main.m */; };
+		39126AE6199E35C7009C814B /* PhototmaniaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39126AE5199E35C7009C814B /* PhototmaniaAppDelegate.m */; };
+		39126AE9199E35C7009C814B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39126AE7199E35C7009C814B /* Main_iPhone.storyboard */; };
+		39126AEC199E35C7009C814B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39126AEA199E35C7009C814B /* Main_iPad.storyboard */; };
+		39126AEF199E35C7009C814B /* PhototmaniaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39126AEE199E35C7009C814B /* PhototmaniaViewController.m */; };
+		39126AF1199E35C7009C814B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39126AF0199E35C7009C814B /* Images.xcassets */; };
+		39126AF8199E35C7009C814B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AF7199E35C7009C814B /* XCTest.framework */; };
+		39126AF9199E35C7009C814B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AD5199E35C6009C814B /* Foundation.framework */; };
+		39126AFA199E35C7009C814B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39126AD9199E35C7009C814B /* UIKit.framework */; };
+		39126B02199E35C7009C814B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39126B00199E35C7009C814B /* InfoPlist.strings */; };
+		39126B04199E35C7009C814B /* PhototmaniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39126B03199E35C7009C814B /* PhototmaniaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39126AFB199E35C7009C814B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39126ACA199E35C6009C814B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39126AD1199E35C6009C814B;
+			remoteInfo = Phototmania;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39126AD2199E35C6009C814B /* Phototmania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phototmania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39126AD5199E35C6009C814B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39126AD7199E35C6009C814B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		39126AD9199E35C7009C814B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39126ADD199E35C7009C814B /* Phototmania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phototmania-Info.plist"; sourceTree = "<group>"; };
+		39126ADF199E35C7009C814B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39126AE1199E35C7009C814B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39126AE3199E35C7009C814B /* Phototmania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phototmania-Prefix.pch"; sourceTree = "<group>"; };
+		39126AE4199E35C7009C814B /* PhototmaniaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhototmaniaAppDelegate.h; sourceTree = "<group>"; };
+		39126AE5199E35C7009C814B /* PhototmaniaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhototmaniaAppDelegate.m; sourceTree = "<group>"; };
+		39126AE8199E35C7009C814B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		39126AEB199E35C7009C814B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		39126AED199E35C7009C814B /* PhototmaniaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhototmaniaViewController.h; sourceTree = "<group>"; };
+		39126AEE199E35C7009C814B /* PhototmaniaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhototmaniaViewController.m; sourceTree = "<group>"; };
+		39126AF0199E35C7009C814B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39126AF6199E35C7009C814B /* PhototmaniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhototmaniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39126AF7199E35C7009C814B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39126AFF199E35C7009C814B /* PhototmaniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhototmaniaTests-Info.plist"; sourceTree = "<group>"; };
+		39126B01199E35C7009C814B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39126B03199E35C7009C814B /* PhototmaniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhototmaniaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39126ACF199E35C6009C814B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126AD8199E35C6009C814B /* CoreGraphics.framework in Frameworks */,
+				39126ADA199E35C7009C814B /* UIKit.framework in Frameworks */,
+				39126AD6199E35C6009C814B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39126AF3199E35C7009C814B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126AF8199E35C7009C814B /* XCTest.framework in Frameworks */,
+				39126AFA199E35C7009C814B /* UIKit.framework in Frameworks */,
+				39126AF9199E35C7009C814B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39126AC9199E35C6009C814B = {
+			isa = PBXGroup;
+			children = (
+				39126ADB199E35C7009C814B /* Phototmania */,
+				39126AFD199E35C7009C814B /* PhototmaniaTests */,
+				39126AD4199E35C6009C814B /* Frameworks */,
+				39126AD3199E35C6009C814B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39126AD3199E35C6009C814B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39126AD2199E35C6009C814B /* Phototmania.app */,
+				39126AF6199E35C7009C814B /* PhototmaniaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39126AD4199E35C6009C814B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39126AD5199E35C6009C814B /* Foundation.framework */,
+				39126AD7199E35C6009C814B /* CoreGraphics.framework */,
+				39126AD9199E35C7009C814B /* UIKit.framework */,
+				39126AF7199E35C7009C814B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39126ADB199E35C7009C814B /* Phototmania */ = {
+			isa = PBXGroup;
+			children = (
+				39126AE4199E35C7009C814B /* PhototmaniaAppDelegate.h */,
+				39126AE5199E35C7009C814B /* PhototmaniaAppDelegate.m */,
+				39126AE7199E35C7009C814B /* Main_iPhone.storyboard */,
+				39126AEA199E35C7009C814B /* Main_iPad.storyboard */,
+				39126AED199E35C7009C814B /* PhototmaniaViewController.h */,
+				39126AEE199E35C7009C814B /* PhototmaniaViewController.m */,
+				39126AF0199E35C7009C814B /* Images.xcassets */,
+				39126ADC199E35C7009C814B /* Supporting Files */,
+			);
+			path = Phototmania;
+			sourceTree = "<group>";
+		};
+		39126ADC199E35C7009C814B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39126ADD199E35C7009C814B /* Phototmania-Info.plist */,
+				39126ADE199E35C7009C814B /* InfoPlist.strings */,
+				39126AE1199E35C7009C814B /* main.m */,
+				39126AE3199E35C7009C814B /* Phototmania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39126AFD199E35C7009C814B /* PhototmaniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				39126B03199E35C7009C814B /* PhototmaniaTests.m */,
+				39126AFE199E35C7009C814B /* Supporting Files */,
+			);
+			path = PhototmaniaTests;
+			sourceTree = "<group>";
+		};
+		39126AFE199E35C7009C814B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39126AFF199E35C7009C814B /* PhototmaniaTests-Info.plist */,
+				39126B00199E35C7009C814B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39126AD1199E35C6009C814B /* Phototmania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39126B07199E35C7009C814B /* Build configuration list for PBXNativeTarget "Phototmania" */;
+			buildPhases = (
+				39126ACE199E35C6009C814B /* Sources */,
+				39126ACF199E35C6009C814B /* Frameworks */,
+				39126AD0199E35C6009C814B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phototmania;
+			productName = Phototmania;
+			productReference = 39126AD2199E35C6009C814B /* Phototmania.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39126AF5199E35C7009C814B /* PhototmaniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39126B0A199E35C7009C814B /* Build configuration list for PBXNativeTarget "PhototmaniaTests" */;
+			buildPhases = (
+				39126AF2199E35C7009C814B /* Sources */,
+				39126AF3199E35C7009C814B /* Frameworks */,
+				39126AF4199E35C7009C814B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39126AFC199E35C7009C814B /* PBXTargetDependency */,
+			);
+			name = PhototmaniaTests;
+			productName = PhototmaniaTests;
+			productReference = 39126AF6199E35C7009C814B /* PhototmaniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39126ACA199E35C6009C814B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Phototmania;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sayantan Chakraborty";
+				TargetAttributes = {
+					39126AF5199E35C7009C814B = {
+						TestTargetID = 39126AD1199E35C6009C814B;
+					};
+				};
+			};
+			buildConfigurationList = 39126ACD199E35C6009C814B /* Build configuration list for PBXProject "Phototmania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39126AC9199E35C6009C814B;
+			productRefGroup = 39126AD3199E35C6009C814B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39126AD1199E35C6009C814B /* Phototmania */,
+				39126AF5199E35C7009C814B /* PhototmaniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39126AD0199E35C6009C814B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126AEC199E35C7009C814B /* Main_iPad.storyboard in Resources */,
+				39126AF1199E35C7009C814B /* Images.xcassets in Resources */,
+				39126AE9199E35C7009C814B /* Main_iPhone.storyboard in Resources */,
+				39126AE0199E35C7009C814B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39126AF4199E35C7009C814B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126B02199E35C7009C814B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39126ACE199E35C6009C814B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126AEF199E35C7009C814B /* PhototmaniaViewController.m in Sources */,
+				39126AE2199E35C7009C814B /* main.m in Sources */,
+				39126AE6199E35C7009C814B /* PhototmaniaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39126AF2199E35C7009C814B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39126B04199E35C7009C814B /* PhototmaniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39126AFC199E35C7009C814B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39126AD1199E35C6009C814B /* Phototmania */;
+			targetProxy = 39126AFB199E35C7009C814B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39126ADE199E35C7009C814B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39126ADF199E35C7009C814B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39126AE7199E35C7009C814B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39126AE8199E35C7009C814B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		39126AEA199E35C7009C814B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39126AEB199E35C7009C814B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		39126B00199E35C7009C814B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39126B01199E35C7009C814B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39126B05199E35C7009C814B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39126B06199E35C7009C814B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39126B08199E35C7009C814B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phototmania/Phototmania-Prefix.pch";
+				INFOPLIST_FILE = "Phototmania/Phototmania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39126B09199E35C7009C814B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phototmania/Phototmania-Prefix.pch";
+				INFOPLIST_FILE = "Phototmania/Phototmania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39126B0B199E35C7009C814B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Phototmania.app/Phototmania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phototmania/Phototmania-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhototmaniaTests/PhototmaniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39126B0C199E35C7009C814B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Phototmania.app/Phototmania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phototmania/Phototmania-Prefix.pch";
+				INFOPLIST_FILE = "PhototmaniaTests/PhototmaniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39126ACD199E35C6009C814B /* Build configuration list for PBXProject "Phototmania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39126B05199E35C7009C814B /* Debug */,
+				39126B06199E35C7009C814B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39126B07199E35C7009C814B /* Build configuration list for PBXNativeTarget "Phototmania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39126B08199E35C7009C814B /* Debug */,
+				39126B09199E35C7009C814B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39126B0A199E35C7009C814B /* Build configuration list for PBXNativeTarget "PhototmaniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39126B0B199E35C7009C814B /* Debug */,
+				39126B0C199E35C7009C814B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39126ACA199E35C6009C814B /* Project object */;
+}
