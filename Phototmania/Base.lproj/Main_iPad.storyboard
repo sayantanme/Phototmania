@@ -101,7 +101,15 @@
                             <constraint firstAttribute="centerX" secondItem="Cpq-UV-Io1" secondAttribute="centerX" id="jf2-fa-M1x"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="yIz-oh-YuH"/>
+                    <navigationItem key="navigationItem" id="yIz-oh-YuH">
+                        <barButtonItem key="rightBarButtonItem" title="URL" id="qGg-Jf-0NI">
+                            <connections>
+                                <segue destination="shI-Uw-8l6" kind="popover" identifier="Show Url" popoverAnchorBarButtonItem="qGg-Jf-0NI" id="lrL-0C-ohS">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="scrollView" destination="VIc-dc-xHJ" id="y2w-4H-ATa"/>
                         <outlet property="spinner" destination="Cpq-UV-Io1" id="5DN-ok-1ch"/>
@@ -110,6 +118,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YGg-fe-IHi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="176"/>
+        </scene>
+        <!--Rl View Controller-->
+        <scene sceneID="njs-OH-Vfb">
+            <objects>
+                <viewController id="shI-Uw-8l6" customClass="URlViewController" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="text" id="px3-w8-goI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                    </textView>
+                    <connections>
+                        <outlet property="urlTextview" destination="px3-w8-goI" id="Jf8-cb-kkK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="efx-4v-JKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1965" y="114"/>
         </scene>
         <!--Navigation Controller - Shutterbug-->
         <scene sceneID="Qee-Rd-3zb">

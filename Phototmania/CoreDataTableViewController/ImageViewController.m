@@ -7,6 +7,7 @@
 //
 
 #import "ImageViewController.h"
+#import "URlViewController.h"
 
 @interface ImageViewController () <UIScrollViewDelegate, UISplitViewControllerDelegate>
 @property (nonatomic, strong) UIImageView *imageView;
@@ -120,7 +121,7 @@
     self.navigationItem.leftBarButtonItem = nil;
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -128,7 +129,11 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.destinationViewController isKindOfClass:[URlViewController class]]) {
+        URlViewController *urlvc = (URlViewController *)segue.destinationViewController;
+        urlvc.url = self.imageUrl;
+    }
 }
-*/
+
 
 @end
