@@ -8,6 +8,6 @@
 
 #import "CoreDataTableViewController.h"
 
-@interface PhotographersCDTVC : CoreDataTableViewController
+@interface PhotographersCDTVC : CoreDataTableViewController <UISearchDisplayDelegate>
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @end
